@@ -1,0 +1,52 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: bootstrap-maxlength.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: bootstrap-maxlength.css
+ */
+
+.bootstrap-maxlength {
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 1;
+}
+
+.default-style .bootstrap-maxlength {
+  padding: 0.25em 0.417em;
+  background: rgba(24, 28, 33, 0.1);
+  font-weight: 500;
+  font-size: 0.858em;
+  border-bottom-right-radius: 0.125rem;
+  border-bottom-left-radius: 0.125rem;
+}
+
+.default-style .bootstrap-maxlength.label-danger {
+  background: #d9534f;
+  color: #fff;
+}
+
+.material-style .bootstrap-maxlength {
+  padding: 0.25em 0.417em;
+  background: rgba(24, 28, 33, 0.1);
+  font-weight: 500;
+  font-size: 0.858em;
+  border-bottom-right-radius: 0.125rem;
+  border-bottom-left-radius: 0.125rem;
+}
+
+.material-style .bootstrap-maxlength.label-danger {
+  background: #d9534f;
+  color: #fff;
+}
+

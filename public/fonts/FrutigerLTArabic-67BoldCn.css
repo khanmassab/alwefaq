@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Frutiger LT Arabic 45';
+    src: url('FrutigerLTArabic-45Light.woff2') format('woff2'),
+        url('FrutigerLTArabic-45Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Arabic 47 Light Cn';
+    src: url('FrutigerLTArabic-47LightCn.woff2') format('woff2'),
+        url('FrutigerLTArabic-47LightCn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Arabic 55 Roman';
+    src: url('FrutigerLTArabic-55Roman.woff2') format('woff2'),
+        url('FrutigerLTArabic-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Arabic 57 Cn';
+    src: url('FrutigerLTArabic-57Cn.woff2') format('woff2'),
+        url('FrutigerLTArabic-57Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Arabic 67 Bold Cn';
+    src: url('FrutigerLTArabic-67BoldCn.woff2') format('woff2'),
+        url('FrutigerLTArabic-67BoldCn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Arabic 77 Black Cn';
+    src: url('FrutigerLTArabic-77BlackCn.woff2') format('woff2'),
+        url('FrutigerLTArabic-77BlackCn.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

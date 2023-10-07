@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('LoewNextArabic-Light.woff2') format('woff2'),
+        url('LoewNextArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('LoewNextArabic-Medium.woff2') format('woff2'),
+        url('LoewNextArabic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('LoewNextArabic-Medium.woff2') format('woff2'),
+        url('LoewNextArabic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('LoewNextArabic-Heavy.woff2') format('woff2'),
+        url('LoewNextArabic-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+

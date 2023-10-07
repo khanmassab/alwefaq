@@ -1,0 +1,42 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: flow.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: flow.css
+ */
+
+.flow-error {
+  display: none;
+}
+
+.flow-drop {
+  position: relative;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+.flow-progress .progress-resume-link,
+.flow-progress .progress-pause-link {
+  display: none;
+}
+
+.default-style .flow-drop {
+  border: 3px dashed rgba(24, 28, 33, 0.06);
+}
+
+.material-style .flow-drop {
+  border: 3px dashed rgba(24, 28, 33, 0.06);
+}
+

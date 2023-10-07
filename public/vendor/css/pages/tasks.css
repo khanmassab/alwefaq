@@ -1,0 +1,48 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: tasks.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:13 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: tasks.css
+ */
+
+.task-list-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 0.625rem 0;
+}
+
+.task-list-item .ui-todo-item {
+  margin: 0;
+}
+
+.default-style .task-list-item {
+  background: #fff;
+}
+
+.default-style .task-list-item + .task-list-item {
+  border-top: 1px solid rgba(24, 28, 33, 0.06);
+}
+
+.material-style .task-list-item {
+  background: #fff;
+}
+
+.material-style .task-list-item + .task-list-item {
+  border-top: 1px solid rgba(24, 28, 33, 0.06);
+}
+

@@ -1,0 +1,59 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: bootstrap-maxlength.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: bootstrap-maxlength.scss
+ */
+
+.bootstrap-maxlength {
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 1;
+}
+
+.default-style {
+  @import '../../sass/_appwork/include';
+
+  .bootstrap-maxlength {
+    padding: $badge-padding-y $badge-padding-x;
+    background: $badge-default-bg;
+    font-weight: $badge-font-weight;
+    font-size: $badge-font-size;
+
+    @include border-bottom-radius($badge-border-radius);
+
+    &.label-danger {
+      background: map-get($theme-colors, danger);
+      color: yiq(map-get($theme-colors, danger));
+    }
+  }
+}
+
+.material-style {
+  @import '../../sass/_appwork/include-material';
+
+  .bootstrap-maxlength {
+    padding: $badge-padding-y $badge-padding-x;
+    background: $badge-default-bg;
+    font-weight: $badge-font-weight;
+    font-size: $badge-font-size;
+
+    @include border-bottom-radius($badge-border-radius);
+
+    &.label-danger {
+      background: map-get($theme-colors, danger);
+      color: yiq(map-get($theme-colors, danger));
+    }
+  }
+}

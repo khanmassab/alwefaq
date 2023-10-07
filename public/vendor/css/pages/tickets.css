@@ -1,0 +1,52 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: tickets.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:13 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: tickets.css
+ */
+
+.ticket-assignee,
+.ticket-assignee-add {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.ticket-assignee-add {
+  display: inline-block;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.ticket-file,
+.ticket-file-img,
+.ticket-file-add {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.ticket-file,
+.ticket-file-add {
+  display: inline-block;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.ticket-file-img {
+  background-color: transparent;
+  background-position: center center;
+  background-size: cover;
+}
+

@@ -1,0 +1,36 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _mixins.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _mixins.scss
+ */
+
+@import "../../sass/_appwork/functions";
+
+@mixin sweetalert2-theme($background, $color: null) {
+  $color: if($color, $color, yiq($background));
+
+  .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step,
+  .swal2-progress-steps[class] .swal2-progress-step-line,
+  .swal2-progress-steps[class] .swal2-active-progress-step,
+  .swal2-progress-steps[class] .swal2-progress-step {
+    background: $background;
+    color: $color;
+  }
+
+  .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step,
+  .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line {
+    background: rgba-to-hex(rgba($background, .25));
+  }
+}

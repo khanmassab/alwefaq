@@ -1,0 +1,20 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: datatables.js
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: datatables.js
+ */
+
+require('datatables.net/js/jquery.dataTables.js');
+require('datatables.net-bs4/js/dataTables.bootstrap4.js');

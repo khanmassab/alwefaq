@@ -1,0 +1,34 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: filter-control.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: filter-control.css
+ */
+
+@charset "UTF-8";
+
+/**
+ * @author: Dennis Hernández
+ * @webSite: http://djhvscf.github.io/Blog
+ * @version: v2.1.1
+ */
+
+.no-filter-control {
+  height: 34px;
+}
+
+.filter-control {
+  margin: 0 2px 2px 2px;
+}
+

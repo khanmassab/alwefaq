@@ -1,0 +1,271 @@
+@media (max-width: 576px) {
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		display:none
+	}
+	td { 
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	th {
+		background:#fbf2e6
+	}
+    /* contact-page */ 
+    .contact-details {
+        padding:20px
+    }
+    .branchs .branch .branch_address span {
+        font-size:12px;
+    }
+    .contact-details .info li span:last-of-type {
+        font-size:17px;
+    }
+    .contactus-page .image img {
+        max-width:300px;
+       margin:auto;
+    }
+    .contactus-page .image {
+       text-align:center
+    }
+    .branchs .branch {
+        display:block
+    }
+    .branch .mapouter iframe ,
+    .branch .mapouter {
+        height:200px !important
+    }
+    .branchs .branch:nth-of-type(n) .branch_address {
+        right:0;
+        padding:20px
+    }
+    /* login-page */
+    .login-form {
+        width:100%
+    }
+    /* resetpassword-page */
+    .reset-method.radio-options > div {
+        padding:10px 5px;
+        font-size:12px
+    }
+    /* menu-page */
+    .sidebar .title {
+        margin:0 !important
+    }
+    .sidebar .title span {
+        font-size:16px
+    }
+    .menu-page .nav-links a {
+        padding:5px;
+    }
+    .menu-page .nav-links a img {
+        max-width:50px
+    }
+    .menu-page .nav-links a span {
+        font-size:12px;
+    }
+    .menu-page .menu-content .item {
+        display:block !important
+    }
+    /* checkout-page */
+    .payments > div {
+        width:100%;
+        margin: 10px 0 !important
+    }
+    .receiving-method.radio-options > div  {
+        font-size:0;
+        margin: 0 13px 0 !important;
+        text-align:center;
+        padding: 6px;
+        width: 40%;
+        border-radius: 8px;
+    }
+    .receiving-method.radio-options > div label {
+        display:block;
+    }
+    .payments > div label {
+        font-size:12px
+    }
+    #receiving-mattam-tab .inputs  {
+        display:block !important
+    }
+    #receiving-mattam-tab .inputs .input-group {
+        padding:10px;
+        width:100% !important;
+    }
+    .addresses p {
+        padding:10px;
+        font-size:12px
+    }
+    #receiving-home-tab .add_address button {
+        padding:0;
+    }
+}
+
+@media (min-width:568px) and (max-width: 768px) {
+    /* contact-page */ 
+    .contact-details {
+        padding: 13px;
+    }
+    .contact-details .info li p {
+        font-size: 14px;
+    }
+    .contact-details .info li span:last-of-type {
+        font-size: 13px;
+    }
+    .mapouter {
+        width: 320px !important;
+        overflow: hidden;
+    }
+    .branchs .branch:nth-of-type(n) .branch_address {
+        padding:10px
+    }
+    .branchs .branch .branch_address span {
+        font-size:12px;
+    }
+    .branchs .branch .branch_address p {
+        font-size:12px;
+    }
+    /* login-page */
+    .login-form {
+        width:80%
+    }
+    /* menu-page */
+    .menu-page .nav-links a {
+        padding:10px
+    }
+    .menu-page .nav-links a span {
+        font-size:15px
+    }
+    .menu-page .nav-links a img {
+        max-width:80px
+    }
+    .menu-page .menu-content .item .add_to_cart {
+        font-size:11px;
+        padding:10px
+    }
+    .menu-page .menu-content .item h5 {
+        font-size:15px;
+    }
+    .menu-page .menu-content .item p {
+        font-size:12px
+    }
+    /* checkout-page */
+    .radio-options > div {
+        width:46%
+    }
+    .payments > div .input-group label {
+        font-size:12px
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px) {
+    /* contact-page */ 
+    .contact-details {
+        padding:20px
+    }
+    .contact-details .info li p {
+        font-size:20px
+    }
+    .contact-details .info li span:last-of-type {
+        font-size:17px
+    }
+    .mapouter {
+        width:400px !important;
+        overflow: hidden;
+    }
+    .branchs .branch:nth-of-type(n) .branch_address {
+        padding:10px
+    }
+    /* login-page */
+    .login-form {
+        width:60%
+    }
+    /* menu-page */
+    .sidebar .title span {
+        font-size:17px;
+    }
+    .menu-page .nav-links a {
+        padding:5px;
+    }
+    .menu-page .nav-links a span {
+        font-size:12px
+    }
+    .menu-page .nav-links a img {
+        max-width:80px
+    }
+    .menu-page .menu-content .item h5 {
+        font-size:14px
+    }
+    .menu-page .menu-content .item p {
+        font-size:12px;
+    }
+    .menu-page .menu-content .item .add_to_cart {
+        padding:5px;
+        font-size:10px;
+        border-radius:4px
+    }
+    .sidebar .item h5 {
+        font-size:12px
+    }
+    /* checkout-page */
+    .radio-options > div {
+        width: 45%;
+    }
+    .radio-options > div  label {
+        font-size:11px
+    }
+    .payments > div .input-group label img {
+        max-width:50px
+    }
+    #receiving-home-tab .add_address button {
+        padding:0
+    }
+    /* order-page */
+    .order-details li {
+        font-size:12px
+    }
+}
+
+@media (min-width:993px) and (max-width: 1200px) {  
+    .breadcrumb .text p {
+        font-size:20px;
+    }
+    .breadcrumb .text span {
+        font-size:18px
+    }
+    /* menu-page */
+    .sidebar .title h3 {
+        font-size:20px
+    }
+    .sidebar .title span {
+        font-size:17px
+    }
+    .menu-page .nav-links a {
+        padding: 20px 10px;
+    }
+    .menu-page .nav-links a span {
+        font-size:14px
+    }
+    .menu-page .menu-content .item .add_to_cart {
+        font-size:12px
+    }
+        /* checkout-page */
+    .radio-options > div {
+        width: 45%;
+    }
+    .radio-options > div  label {
+        font-size:11px
+    }
+    .payments > div .input-group label img {
+        max-width:50px
+    }
+    #receiving-home-tab .add_address button {
+        padding:0
+    }
+}

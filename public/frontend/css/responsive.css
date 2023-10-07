@@ -1,0 +1,472 @@
+@media (max-width: 767px) {
+	html {
+		font-size: 7px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+   .register  .diff .select2-container {
+    width: 27% !important;
+}
+    .register .register_content:before {
+ 
+    left: -149px;
+    }
+    .register_content {
+    padding: 60px 45px;
+    }
+	.login_content .image {
+		width: 151px;
+		height: 139px;
+		line-height: 139px;
+	}
+	.login_content {
+		padding: 60px 60px 18px 60px;
+	}
+	.content-pages input:after,
+	.content-pages input:before,
+	.content-pages .form-check-label input {
+		width: 33px;
+		height: 33px;
+	}
+	.content-pages .form-check-label {
+		width: 62px;
+	}
+	.fill_data .diff .select2-container {
+		width: 19% !important;
+	}
+	.fill_data form {
+		width: 100%;
+	}
+	.diff2 .select2-container {
+		width: 27% !important;
+	}
+	.content-pages form p.last {
+		width: 100% !important
+	}
+	.content-pages form p:not(:last-child) {
+		width: 39%;
+		margin: 5px;
+	}
+	.card-body {
+		padding: 10px;
+	}
+	.fill_data {
+		padding: 27px;
+	}
+	.add_cart svg {
+		height: 20px;
+	}
+	.total,
+	.add_cart {
+		height: 40px;
+		line-height: 20px
+	}
+	.shop2 {
+		padding: 10px
+	}
+	.bouquet {
+		padding: 9px;
+		height: 43px;
+	}
+	.accordion .row {
+		width: 100% !important;
+	}
+	.marriage_requests_content2 .item:nth-child(3),
+	.marriage_requests_content2 .item:nth-child(4) {
+		padding: 10px;
+	}
+	.global-page .col-xl-10 {
+		max-width: 75.333333%;
+	}
+	.global-page .col-xl-2 {
+		max-width: 24%;
+	}
+	.header_left ul.second:after {
+		height: 105px;
+	}
+	.header_left .first li,
+	.header_left .second li {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.marriage_requests_content2 .item:nth-child(2) {
+		width: 24%;
+	}
+	.marriage_requests_content2 .item:nth-child(4) {
+		margin-right: 42px;
+		margin-left: 23px;
+		width: 21%;
+	}
+	.top_requests .icon_ {
+		margin-right: 51px;
+	}
+	.top_requests .icon_ svg {
+		width: 30px
+	}
+	.top_requests {
+		padding: 8px 12px;
+	}
+	.marriage_requests_content .item:nth-child(2) {
+		margin: 0 0 0 31px;
+	}
+	.marriage_requests_content .item:nth-child(5) {
+		margin: 0 9px 0 11px;
+	}
+	.marriage_requests_content .item:nth-child(3) {
+		margin-left: 22px;
+	}
+	.marriage_requests_content .item:nth-child(3),
+	.marriage_requests_content .item:nth-child(4),
+	.marriage_requests_content .item:nth-child(5) {
+		padding: 10px 10px;
+	}
+	.bg_marriage_crequests {
+		padding: 10px 10px;
+	}
+	.top_requests .id_ {
+		margin: 0 5px;
+		font-size: 1rem;
+		padding: 8px 5px;
+	}
+	.marriage_requests {
+		padding: 13px;
+	}
+	.sidebar li a {
+		color: #ABABAB;
+		font-size: 1.3rem;
+	}
+	.sidebar li {
+		padding: 10px 37px;
+	}
+	.header_right:after {
+		BOX-SHADOW: 0 0 BLACK;
+		right: -48px;
+		background-size: 45%;
+		top: 0;
+	}
+	.header_right {
+		padding-right: 46px;
+	}
+	.container-fluid {
+		width: 100%;
+	}
+	.wh1 {
+		max-width: 34% !important;
+		flex: 0 0 34.666667%;
+	}
+	.wh2 {
+		max-width: 49% !important;
+		flex: 0 0 49.666667%;
+	}
+	.Wanting_married_content a,
+	.donate_now a {
+		margin-top: 20px
+	}
+	.media {
+		padding: 30px 0
+	}
+	.item_services .image img {
+		width: 47px;
+		height: 47px;
+	}
+	.tab_content {
+		padding-top: 20px
+	}
+	html {
+		font-size: 6px;
+	}
+	.media .item .caption h4 {
+		font-size: 1.7rem;
+	}
+	.swiper-button-prev,
+	.swiper-button-next {
+		bottom: 121px !important;
+	}
+	.donate_now_img img {
+		width: 52%;
+	}
+	.donate_now_img {
+		right: -29px;
+	}
+	.Wanting_married {
+		padding-right: 20px
+	}
+	.donate_now h2 {
+		font-size: 2.4rem;
+	}
+	.donate_now,
+	.Wanting_married,
+	.partners,
+	footer {
+		margin: 0 30px;
+	}
+	.donate_now {
+		margin-top: 55px;
+		padding: 26px 0;
+	}
+	.item_services {
+		margin: 0;
+	}
+	.services:before {
+		top: 101px;
+		width: auto;
+	}
+	.services {
+		padding: 123px 0 0 0;
+		background-size: 100%;
+	}
+	.tab {
+		width: 88%;
+	}
+	#sequence-theme .title2 {
+		left: 20% !important;
+		margin-top: 0;
+	}
+	#sequence-theme .subtitle {
+		font-size: 2rem;
+		height: 50px;
+		line-height: 25px;
+	}
+	.left-links {
+		margin-right: 5px
+	}
+	.menu_right li a {
+		font-size: 1.4rem;
+	}
+	.orders li a {
+		padding: 8px 12px;
+	}
+	.left-links li svg {
+		width: 30px
+	}
+	.orders li a svg {
+		width: 20px
+	}
+	.menu_left ul:not(:last-child) li a {
+		padding: 12px 4px;
+		font-size: 1.1rem;
+		margin: 0 1px;
+	}
+	.card-body input {
+		padding: 18px 20px;
+	}
+	.asking_help2:before {
+		left: -62px;
+		bottom: -198px;
+		height: 213px;
+	}
+	footer .newsletter form input {
+		padding-right: 32px;
+		padding-top: 5px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .register  .diff .select2-container {
+    width: 27% !important;
+    }
+	.content-pages input:after,
+	.content-pages input:before,
+	.content-pages .form-check-label input {
+		width: 46px;
+		height: 46px;
+	}
+	.content-pages .form-check-label {
+		width: 89px;
+	}
+	.fill_data .diff .select2-container {
+		width: 20% !important;
+	}
+	.fill_data form {
+		width: 100%;
+	}
+	.diff2 .select2-container {
+		width: 27% !important;
+	}
+	.content-pages form p.last {
+		width: 100% !important
+	}
+	.content-pages form p:not(:last-child) {
+		width: 47%;
+		margin: 5px;
+	}
+	.card-body {
+		padding: 10px;
+	}
+	.fill_data {
+		padding: 27px;
+	}
+	.col-md-5ths {
+		width: 25%;
+		float: left;
+	}
+	.asking_help2:before {
+		left: -62px;
+		bottom: -198px;
+		height: 213px;
+	}
+	#product-slider .item_pro {
+		margin: 10px
+	}
+	.diff2 .select2-container {
+		width: 28% !important;
+	}
+	.card-body input {
+		padding: 18px 20px;
+	}
+	.card-body {
+		padding: 10px;
+	}
+	#shares-slider form {
+		width: 79%;
+		margin: auto;
+	}
+	#shares-slider .image img {
+		width: 48px !important;
+	}
+	#shares-slider .image {
+		padding: 43px 16px;
+	}
+	.fill_data {
+		padding: 27px;
+	}
+	.accordion .row {
+		width: 95% !important;
+	}
+	.global-page .col-xl-2 {
+		max-width: 23%;
+		flex: 0 0 23.666667%;
+	}
+	.global-page .col-xl-10 {
+		max-width: 74.333333%;
+		flex: 0 0 74.333333%;
+	}
+	.marriage_requests_content2 .item:nth-child(2) {
+		width: 33%;
+	}
+	.marriage_requests_content2 .item:nth-child(4) {
+		margin-right: 42px;
+		margin-left: 23px;
+		width: 21%;
+	}
+	.top_requests .icon_ {
+		margin-right: 51px;
+	}
+	.top_requests {
+		padding: 8px 12px;
+	}
+	.marriage_requests_content .item:nth-child(2) {
+		margin: 0 0 0 36px;
+	}
+	.marriage_requests_content .item:nth-child(5) {
+		margin: 0 11px 0 15px;
+	}
+	.marriage_requests_content .item:nth-child(3) {
+		margin-left: 31px;
+	}
+	.marriage_requests_content .item:nth-child(3),
+	.marriage_requests_content .item:nth-child(4),
+	.marriage_requests_content .item:nth-child(5) {
+		padding: 12px 12px;
+	}
+	.bg_marriage_crequests {
+		padding: 10px 10px;
+	}
+	.top_requests .id_ {
+		margin: 0 5px;
+		font-size: 1.1rem;
+		padding: 8px 6px;
+	}
+	.marriage_requests {
+		padding: 13px;
+	}
+	.sidebar li a {
+		color: #ABABAB;
+		font-size: 1.3rem;
+	}
+	.sidebar li {
+		padding: 10px 37px;
+	}
+	.header_right:after {
+		right: -41px;
+	}
+	.header_right {
+		padding-right: 56px;
+	}
+	.container-fluid {
+		width: 100%;
+	}
+	.wh1 {
+		max-width: 40% !important;
+		flex: 0 0 40.666667%;
+	}
+	.wh2 {
+		max-width: 42% !important;
+	}
+	footer .newsletter form input {
+		padding-right: 32px;
+	}
+	.media .item .caption h4 {
+		font-size: 1.7rem;
+	}
+	.swiper-button-prev,
+	.swiper-button-next {
+		bottom: 121px !important;
+	}
+	.donate_now_img img {
+		width: 70%;
+	}
+	.donate_now_img {
+		right: 9px;
+	}
+	.donate_now h2 {
+		font-size: 2.4rem;
+	}
+	.donate_now,
+	.Wanting_married,
+	.partners,
+	footer {
+		margin: 0 30px
+	}
+	.donate_now {
+		margin-top: 70px
+	}
+	.item_services {
+		margin: 10px 0;
+	}
+	.services:before {
+		top: 101px;
+		width: auto;
+	}
+	.services {
+		padding: 123px 0 0 0;
+		background-size: 100%;
+	}
+	.tab {
+		width: 85%;
+	}
+	#sequence-theme .title2 {
+		left: 24% !important;
+		margin-top: 20px;
+	}
+	#sequence-theme .subtitle {
+		font-size: 2rem;
+	}
+	html {
+		font-size: 9px;
+	}
+	.left-links {
+		margin-right: 5px
+	}
+	.menu_right li a {
+		font-size: 1.4rem;
+	}
+	.orders li a {
+		padding: 8px 12px;
+	}
+	.menu_left ul:not(:last-child) li a {
+		padding: 12px 4px;
+		font-size: 1.1rem;
+		margin: 0 1px;
+	}
+}

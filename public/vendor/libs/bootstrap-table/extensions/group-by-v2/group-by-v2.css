@@ -1,0 +1,26 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: group-by-v2.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: group-by-v2.css
+ */
+
+.bootstrap-table .table > tbody > tr.groupBy {
+  cursor: pointer;
+}
+
+.bootstrap-table .table > tbody > tr.hidden + tr.detail-view {
+  display: none;
+}
+

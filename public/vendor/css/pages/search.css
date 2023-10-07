@@ -1,0 +1,27 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: search.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:13 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: search.css
+ */
+
+.default-style .search-nav.nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.material-style .search-nav.nav {
+  border: none !important;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.06) inset !important;
+}
+

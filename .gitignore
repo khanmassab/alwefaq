@@ -1,0 +1,25 @@
+/node_modules
+/public/hot
+/public/storage
+/public/uploads
+/public/uploads/*
+
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.ideal
+.phpstorm.meta.php
+_ide_helper.php
+/.idea
+<<<<<<< HEAD
+.idea
+=======
+>>>>>>> 89ecfffb1dd38072e6d42ca145c90215a2793557
+/.env.*.local
+/.env.local
+/.env.local.php

@@ -1,0 +1,54 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _mixins.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _mixins.scss
+ */
+
+@import "../../sass/_appwork/functions";
+
+@mixin bs-datepicker-theme($background, $color: null) {
+  $color: if($color, $color, yiq($background));
+  $range-bg: rgba-to-hex(rgba($background, .15), #fff);
+  $range-color: yiq($range-bg);
+
+  .datepicker table tr td {
+    &.active,
+    &.active.highlighted,
+    &.active.today,
+    span.active,
+    span.active.disabled,
+    &.range-start,
+    &.range-end {
+      background: $background !important;
+      color: $color !important;
+    }
+
+    &.range,
+    &.range.highlighted,
+    &.range.today {
+      background: $range-bg !important;
+      color: $range-color !important;
+
+      &.focused {
+        background: darken($range-bg, 6%) !important;
+      }
+
+      &.disabled {
+        background: transparentize($range-bg, .5) !important;
+        color: transparentize($range-color, .5) !important;
+      }
+    }
+  }
+}

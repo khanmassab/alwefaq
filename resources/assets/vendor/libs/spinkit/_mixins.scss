@@ -1,0 +1,33 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _mixins.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _mixins.scss
+ */
+
+@mixin spinkit-theme($background) {
+  .sk-primary.sk-rotating-plane,
+  .sk-primary.sk-double-bounce .sk-child,
+  .sk-primary.sk-wave .sk-rect,
+  .sk-primary.sk-wandering-cubes .sk-cube,
+  .sk-primary.sk-spinner-pulse,
+  .sk-primary.sk-chasing-dots .sk-child,
+  .sk-primary.sk-three-bounce .sk-child,
+  .sk-primary.sk-circle .sk-child:before,
+  .sk-primary.sk-cube-grid .sk-cube,
+  .sk-primary.sk-fading-circle .sk-circle:before,
+  .sk-primary.sk-folding-cube .sk-cube:before {
+    background-color: $background;
+  }
+}

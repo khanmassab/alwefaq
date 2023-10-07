@@ -1,0 +1,61 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _mixins.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _mixins.scss
+ */
+
+@import "../../sass/_appwork/functions";
+
+@mixin plyr-theme($background, $color: null) {
+  $color: if($color, $color, yiq($background));
+
+  .plyr input[type='range']::-ms-fill-lower {
+    background: $background !important;
+  }
+
+  .plyr input[type='range']:active {
+    &::-webkit-slider-thumb {
+      background: $background !important;
+    }
+    &::-moz-range-thumb {
+      background: $background !important;
+    }
+    &::-ms-thumb {
+      background: $background !important;
+    }
+  }
+
+  .plyr--video .plyr__controls button.tab-focus:focus,
+  .plyr--video .plyr__controls button:hover {
+    background: $background !important;
+    color: $color !important;
+  }
+
+  .plyr--audio .plyr__controls button.tab-focus:focus,
+  .plyr--audio .plyr__controls button:hover {
+    background: $background !important;
+    color: $color !important;
+  }
+
+  .plyr__play-large {
+    background: $background !important;
+    color: $color !important;
+  }
+
+  .plyr__progress--played,
+  .plyr__volume--display {
+    color: $background !important;
+  }
+}

@@ -1,0 +1,88 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _footer.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _footer.scss
+ */
+
+// Footer
+//
+
+.footer-link {
+  display: inline-block;
+}
+
+// Dark footer
+.footer-dark {
+  color: $navbar-dark-color;
+
+  .footer-link {
+    color: $navbar-dark-color;
+
+    @include hover-focus {
+      color: $navbar-dark-hover-color;
+    }
+
+    &.disabled {
+      color: $navbar-dark-disabled-color !important;
+    }
+  }
+
+  .footer-text {
+    color: $navbar-dark-active-color;
+  }
+
+  .show > .footer-link,
+  .active > .footer-link,
+  .footer-link.show,
+  .footer-link.active {
+    color: $navbar-dark-active-color;
+  }
+
+  hr {
+    border-color: $sidenav-dark-border-color;
+  }
+}
+
+// Light footer
+.footer-light {
+  color: $navbar-light-color;
+
+  .footer-link {
+    color: $navbar-light-color;
+
+    @include hover-focus {
+      color: $navbar-light-hover-color;
+    }
+
+    &.disabled {
+      color: $navbar-light-disabled-color !important;
+    }
+  }
+
+  .footer-text {
+    color: $navbar-light-active-color;
+  }
+
+  .show > .footer-link,
+  .active > .footer-link,
+  .footer-link.show,
+  .footer-link.active {
+    color: $navbar-light-active-color;
+  }
+
+  hr {
+    border-color: $sidenav-light-border-color;
+  }
+}

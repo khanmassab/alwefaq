@@ -1,0 +1,62 @@
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:52 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: morris.css
+ */
+
+/*
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 12/19/19, 10:37 PM
+ *
+ * File Name: morris.css
+ */
+
+.morris-hover {
+  position: absolute;
+  z-index: 1000;
+}
+
+.morris-default-style {
+  text-align: center;
+}
+
+.morris-default-style .morris-hover-row-label {
+  font-weight: bold;
+}
+
+.morris-default-style .morris-hover-point {
+  white-space: nowrap;
+  font-size: .6875rem;
+}
+
+.default-style .morris-default-style {
+  padding: 0.25rem 0.5rem;
+  background-color: #46494d;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.default-style .morris-default-style .morris-hover-row-label {
+  margin: 0.25rem 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.material-style .morris-default-style {
+  padding: 0.25rem 0.5rem;
+  background-color: #46494d;
+  font-size: 0.75rem;
+  border-radius: 0.125rem;
+}
+
+.material-style .morris-default-style .morris-hover-row-label {
+  margin: 0.25rem 0;
+  color: #fff;
+  font-weight: bold;
+}
+

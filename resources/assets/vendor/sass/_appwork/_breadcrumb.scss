@@ -1,0 +1,54 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _breadcrumb.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _breadcrumb.scss
+ */
+
+// Breadcrumbs
+//
+
+.breadcrumb-item,
+.breadcrumb-item a {
+  color: $breadcrumb-color;
+
+  @include hover-focus {
+    color: $breadcrumb-active-color;
+  }
+}
+
+.breadcrumb-item.active a {
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    color: inherit;
+  }
+}
+
+// *******************************************************************************
+// * RTL
+
+@include rtl-only {
+  .breadcrumb-item +.breadcrumb-item {
+    padding-left: 0;
+    padding-right: $breadcrumb-item-padding;
+
+    &::before {
+      padding-left: $breadcrumb-item-padding;
+      padding-right: 0;
+      content: "#{$breadcrumb-divider-rtl}";
+    }
+  }
+}

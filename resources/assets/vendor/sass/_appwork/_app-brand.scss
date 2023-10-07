@@ -1,0 +1,90 @@
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 1/5/20, 1:53 AM
+ * Last Modified: 12/22/19, 10:14 PM
+ * Project Name: Wafaq
+ * File Name: _app-brand.scss
+ */
+
+/*!
+ * Created by PhpStorm.
+ * Developer: Tariq Ayman ( tariq.ayman94@gmail.com )
+ * Date: 12/22/19, 10:14 PM
+ * Last Modified: 11/1/19, 5:58 PM
+ *
+ * File Name: _app-brand.scss
+ */
+
+.app-brand {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  line-height: 1;
+  min-height: 1px;
+}
+
+.app-brand-logo {
+  display: block;
+  overflow: hidden;
+  flex-grow: 0;
+  flex-shrink: 0;
+  min-height: 1px;
+
+  img,
+  svg {
+    display: block;
+  }
+}
+
+.app-brand-text {
+  display: block;
+  flex-shrink: 0;
+}
+
+.app-brand .layout-sidenav-toggle {
+  display: block;
+}
+
+// Within sidenav
+
+@mixin appwork-app-brand-collapsed() {
+  .app-brand {
+    padding-right: 0;
+    padding-left: 0;
+    width: $sidenav-collapsed-width;
+  }
+
+  .app-brand-logo,
+  .app-brand-text {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .app-brand-logo ~ .app-brand-text,
+  .app-brand .layout-sidenav-toggle {
+    display: none;
+  }
+}
+
+.sidenav-vertical .app-brand {
+  padding-right: $sidenav-vertical-link-padding-x - .25rem;
+  padding-left: $sidenav-vertical-link-padding-x - .25rem;
+}
+
+.sidenav-horizontal .app-brand,
+.sidenav-horizontal .app-brand + .sidenav-divider {
+  display: none !important;
+}
+
+:not(.layout-sidenav) > .sidenav-vertical.sidenav-collapsed:not(.layout-sidenav):not(:hover) {
+  @include appwork-app-brand-collapsed();
+}
+
+@media (min-width: map-get($grid-breakpoints, lg)) {
+  .layout-collapsed:not(.layout-sidenav-hover):not(.layout-offcanvas):not(.layout-fixed-offcanvas) .layout-sidenav {
+    @include appwork-app-brand-collapsed();
+  }
+}
